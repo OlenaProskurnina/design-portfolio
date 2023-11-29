@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+*{
+    margin: 0;
+}
+.page { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #D9D9D9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.header__box {
+    width: 1286px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-position: center;
+    width: 154px;
+    height: 43px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.header__links-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none; 
+    min-width: 503px;
+    justify-content: space-between;
+}
+
+.header__link {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #361921;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduce {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.introduce__box {
+    width: 80%;
+    display: flex;
+    padding: 148px 0px 169px 0px;
+    align-items: center;
+    justify-content: space-between;
+}   
+.introduce__image {
+    width: 445px;
+    height: 610px;
+    box-shadow: 19px 19px #361921;
+
+}
+.introduce__text-box {
+}
+.introduce__title {
+    margin: 0;
+    padding: 0;
+    color: #361921;
+    font-size: 49.6px;
+    font-family: 'Inter', sans-serif;
+
+}
+.introduce__subtitle {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 31.44px;
+    font-weight: 100;
+    padding-bottom: 79.47px;
+}
+.introduce__text {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-size: 23.61px;
+    font-weight: 100;
+}
+.introduce__text-accent{
+    font-weight: 400;
+}
+.description {
+    background-color: #361921;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 103px 0px 134px;
+}
+.description__box-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+    
+}
+.description__title {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  
+    
+
+}
+.description__line{
+    width: 244px;
+}
+.description__title::before {
+    content: url(../imagess/description__image1.svg);
+    margin-right: 132px;
+}
+.description__title::after {
+    content: url(../images/description__image2.svg);
+    margin-left: 132px;
+}
+
+.description__text {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;  
+    font-size: 23.61px;
+    line-height: 180.5%;
+    font-style: italic;
+    max-width: 1095px;
+    text-align: center;
+}
+.quote{
+    width: 100%;
+    height: 679px;
+    max-width: 1440px;
+    background-image: url(../images/quote__image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote__text{
+    color: white;
+    font-size: 42.19px;
+    font-family: 'Inter', sans-serif; 
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    max-width: 794px;
+ 
+}
+.contact {
+    padding-top: 84px;
+    padding-bottom: 133px;
+
+}
+.contact__title {
+    color: #361921;
+    font-size: 38.86px;
+    font-family: 'Inter', sans-serif;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.form__input {
+    border: none;
+    border-bottom: 1px  solid #361921;
+    width: 100%;
+    padding-bottom: 33px;
+    margin-top: 23px;
+    padding-top: 33px;
+    
+}
+.form__button {
+    width: 110px;
+    height: 36px;
+    color: #ffffff;
+    background-color: #361921;
+    font-size: 20px;
+    margin-top: 41px;
+}
+
+
+
+.footer {
+    background-color: #361921;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer__copyright{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    padding: 21px 0px 22px 0px;
+}
+
+
